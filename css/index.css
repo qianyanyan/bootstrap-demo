@@ -1,0 +1,128 @@
+.table01 tr td{border: 1px dotted #dddddd; font-size: 16px;}
+#tasks li:nth-child(2n+1),#member-tab li:nth-child(2n+1){background-color: #f9f9f9}
+#tasks li a,#member-tab li a{color: #666; text-decoration: none;}
+#tasks li a:hover,#member-tab li a:hover{
+    color: #4383b4;
+}
+.page-header{
+    border-bottom: 1px solid #e2e2e2;
+}
+/*人员与权限*/
+#sample-form .control-label i,#member-form .control-label i{font-size: 12px; margin-right: 10px}
+.checkbox1{
+    padding-left: 0;
+    padding-top: 0;
+}
+.ladiv label{margin-right: 10px; color:#666; margin-top: 3px;}
+.ladiv label input{margin-right: 5px}
+.help-block{color:darkred}
+.mima{margin-top: 5px}
+.add1{margin-right: 10px}
+.serch{margin-top: -2px;border-width:4px}
+.change-but button{margin-right: 10px!important;}
+.jue{margin: 0 10px}
+.roleadmin{margin-top: -5px;margin-left: 15px;}
+.roleadmin button{border: 1px solid #ddd !important; color: #999!important; background-color: #fff!important; }
+.roleadmin button > [class*="icon-"]:first-child {
+    color: #f9e8ce;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fafafa;
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+
+}
+.roleadmin .selected > [class*="icon-"]:first-child {
+    background-color: #f9a021;
+    border-color: #f9a021;
+    color: #FFF;}
+.roleadmin .plus[class*="icon-"]:first-child {
+    vertical-align: middle;
+    height: 11px;
+    width: 11px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 10px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+    color:#4d6878!important;
+    font-weight: normal!important;
+}
+.layl label{margin-right: 10px; color: #666}
+.tab3{border: 1px solid #c5d0dc!important;}
+.btn-se{margin-top: -1px;border-width: 4px; border-radius: 3px}
+.setting-form{width: 100%;}
+.setting-form form{margin-top: 2px; margin-right: 10px}
+.setting-form form button{margin-top: -3px; border-width: 4px}
+.pset{color: #999}
+.wbody{background-color: #f9f9f9;border: 1px solid #dedede; margin: 10px auto}
+.wbody p{text-indent: 24px; color: #666}
+.w-h{border: none!important;}
+.w-h h2{margin-bottom: 10px!important;}
+/*站内信*/
+.li-title{background-color: #f9f9f9;}
+.li-title dt{float: left;}
+.li-title label span{width: 15px;height: 15px;border: 1px solid #ddd;display: inline-block; float: left; margin-top: 2px; margin-right: 5px; cursor: pointer;background-color: #fff}
+.li-title label span.selected{background-color: #4383b4;}
+.li-title label{margin-right: 10px}
+.li-title section button{border-width: 4px; margin-top: -1px}
+.lic dt span{width: 15px;height: 15px;border: 1px solid #ddd; float: left; margin-right: 10px; margin-top: 5px;cursor: pointer}
+.lic dt span.selected{
+    background-color: #4383b4;
+}
+.lic dd{padding-left: 25px}
+.lic dd h4{line-height: 25px; font-size: 16px; cursor: pointer;color: #666;overflow: hidden}
+.lic dd h4 span{float: right; color: #999;}
+.lic dd p{color: #999;display: none }
+.lic:nth-child(2n+1){background-color:#f9f9f9;}
+/*登录页面*/
+.logtitle{margin-top: 30px}
+/*视频管理*/
+.video-title{background-color: #f1f1f1!important;}
+.table-item td img{width: 80px; height: 60px;}
+.table-item td h4{line-height: 25px; font-size: 16px; margin-top: 6px}
+.md_P{color: #999}
+/*新增限购产品*/
+.wizard-steps .step i{color:#fff}
+.wizard-steps .active .step{background-color:#87b87f}
+.product-title {border-bottom: 1px solid #ddd; padding: 20px; margin-bottom: 30px}
+.yearmon{color:#333}
+.yearmon label{color: #666;margin: 0 10px;}
+.yearmon label i{margin-right: 5px;}
+.yearmon label > [class*="icon-"]:first-child {
+    color: #f9e8ce;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fafafa;
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+
+}
+.yearmon .selected > [class*="icon-"]:first-child {
+    background-color: #f9a021;
+    border-color: #f9a021;
+    color: #FFF;}
+.t2 > tbody > tr > td{vertical-align: middle}
+.cform .form-group label i{font-size: 12px;color: red;margin-right: 5px; }
+.cform .form-group label{margin-right: 10px}
+.cform{margin-top: 20px;}
